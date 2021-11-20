@@ -1,4 +1,7 @@
-#POC Keycloak
+## POC Keycloak
+this work is in progress
+
+this project used terraform version Terraform v1.0.11 from nixpkgs
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
