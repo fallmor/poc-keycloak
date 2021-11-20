@@ -1,0 +1,7 @@
+*test-ssh/
+*.tfstate*
+*.tfvars
+*.terraform*
+*.history
+
+
