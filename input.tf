@@ -27,3 +27,9 @@ variable "AMI" {
   type    = string
   default = "ami-083654bd07b5da81d"
 }
+variable "dns_zone_name" {
+  type = string
+}
+variable "domain_name" {
+type = string
+}

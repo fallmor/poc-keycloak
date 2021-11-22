@@ -7,3 +7,6 @@ output "alb" {
 output "keycloak_ip" {
   value = aws_instance.keycloak.private_ip
 }
+output "dns_name" {
+  value = aws_route53_record.www.name
+}

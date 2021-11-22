@@ -1,1 +1,0 @@
-#conf for the dns 
