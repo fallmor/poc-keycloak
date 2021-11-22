@@ -37,7 +37,7 @@ resource "aws_lb" "test" {
   security_groups    = [aws_security_group.elb.id]
   subnets            = [aws_subnet.keycloak_public[0].id, aws_subnet.keycloak_private.id]
 
-  enable_deletion_protection = true
+  enable_deletion_protection = false
 
   tags = {
     Environment = "production"

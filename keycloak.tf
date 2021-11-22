@@ -22,7 +22,8 @@ resource "aws_instance" "keycloak" {
   }
   provisioner "remote-exec" {
     inline = [
-      "nohup sudo docker-compose -f /tmp/keycloak.yml up &"
+      "nohup sudo docker-compose -f /tmp/keycloak.yml up &",
+      "sleep 1"
     ]
   }
   connection {
